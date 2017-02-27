@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: demo-ers4-jf-kd
+  host: demo-ers4-jf-kd
+  disk_quota: 1024M
+  services:
+  - demo-ers4-jf-kd-cloudantNoSQLDB
+  - demo-ers4-jf-kd-iotf-service
+  - dashDB for Analytics-f7
+  - availability-monitoring-auto
